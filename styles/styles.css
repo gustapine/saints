@@ -1,0 +1,72 @@
+/* Reset de estilos padrão */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Cor de fundo levemente mais clara */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura igual à altura da janela de visualização (viewport) */
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Azul suave para links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    font-size: 43px;
+    color: #333; /* Cor preta para o título */
+    margin-bottom: 20px; /* Espaçamento inferior para separar do botão */
+}
+
+/* Estilos para botões */
+button {
+    background-color: #3498db; /* Azul para botões */
+    color: #fff; /* Texto branco para botões */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro quando passa o mouse */
+    box-shadow: 0px 0px 10px rgba(52, 152, 219, 0.7); /* Sombra mais escura ao passar o mouse */
+}
+
+
+img{
+    height: 300px;
+    width: 500px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    img{
+        height: 180px;
+        width: 290px;
+    }
+
+    button {
+        padding: 8px 16px;
+        margin: 5px;
+    }
+}

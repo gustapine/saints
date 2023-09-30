@@ -1,0 +1,78 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Estilos para botões */
+button {
+    background-color: transparent;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilos para a lista não ordenada */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para links na lista */
+ul li a {
+    color: #333;
+}
+
+ul li a:hover {
+    color: #007BFF;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 8px 16px;
+        margin: 3px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+}
